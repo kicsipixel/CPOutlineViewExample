@@ -1,0 +1,98 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		047A40EFAA46CD888A3ECBE7 /* EmployeeData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EmployeeData.m; path = .XcodeSupport/EmployeeData.m; sourceTree = SOURCE_ROOT; };
+		4C0C4788B609AE9C587B2214 /* xcc_general_include.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xcc_general_include.h; path = .XcodeSupport/xcc_general_include.h; sourceTree = SOURCE_ROOT; };
+		60974923B4B5A7B61C51C484 /* EmployeeData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EmployeeData.h; path = .XcodeSupport/EmployeeData.h; sourceTree = SOURCE_ROOT; };
+		9452434EB0C38B4EE15FDD9F /* EmployeeData.j */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeData.j; sourceTree = SOURCE_ROOT; };
+		A5B447338DDD738CBC94C658 /* AppController.j */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppController.j; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		E164FE29172185F500263CE3 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2A1341A19A339EA5AEB86E52 /* Cocoa Classes */ = {
+			isa = PBXGroup;
+			children = (
+				60974923B4B5A7B61C51C484 /* EmployeeData.h */,
+				047A40EFAA46CD888A3ECBE7 /* EmployeeData.m */,
+				4C0C4788B609AE9C587B2214 /* xcc_general_include.h */,
+			);
+			name = "Cocoa Classes";
+			sourceTree = "<group>";
+		};
+		E164FE221721857400263CE3 = {
+			isa = PBXGroup;
+			children = (
+				E164FE29172185F500263CE3 /* Resources */,
+				2A1341A19A339EA5AEB86E52 /* Cocoa Classes */,
+				EB6548878033C96F1518D2C5 /* Cappuccino Source */,
+			);
+			sourceTree = "<group>";
+		};
+		EB6548878033C96F1518D2C5 /* Cappuccino Source */ = {
+			isa = PBXGroup;
+			children = (
+				A5B447338DDD738CBC94C658 /* AppController.j */,
+				9452434EB0C38B4EE15FDD9F /* EmployeeData.j */,
+			);
+			name = "Cappuccino Source";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		E164FE231721857400263CE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = E164FE261721857400263CE3 /* Build configuration list for PBXProject "CPOutlineView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E164FE221721857400263CE3;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E164FE271721857400263CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E164FE281721857400263CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E164FE261721857400263CE3 /* Build configuration list for PBXProject "CPOutlineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E164FE271721857400263CE3 /* Debug */,
+				E164FE281721857400263CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E164FE231721857400263CE3 /* Project object */;
+}
